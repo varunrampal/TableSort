@@ -1,0 +1,39 @@
+p {
+  font-family: Lato;
+}
+
+#elementsPeriodic {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#elementsPeriodic td,
+#elementsPeriodic th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#elementsPeriodic tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#elementsPeriodic tr:hover {
+  background-color: #ddd;
+}
+
+#elementsPeriodic th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: peru;
+  color: white;
+}
+
+p {
+  font-family: Lato;
+}
+
+.pointer {
+  cursor: pointer;
+}
