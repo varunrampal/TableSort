@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
     // Call PersonService method to populate data
     this.personService.index().subscribe((data) => {
       this.persons = data;
-    });
+    }, error => { console.log('error:' + error) });
   }
 
   // Sort data based on the column
